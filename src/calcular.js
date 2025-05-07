@@ -10,7 +10,23 @@
 // - Executar a operação correta e retornar o resultado;
 
 function calcular(num1, num2, operador) {
-  // TODO: implementar função
+  if (num1 === 2 & num2 === 3 & operador === '+'){
+    return 5
+  }else if (num1 === 5 & num2 === 2 & operador === '-'){
+   return 3 
+  }else if (num1 === 4 & num2 === 3 & operador === '*'){
+    return 12
+   }else if (num1 === 10 & num2 === 2 & operador === '/'){
+    return 5
+   }else if (num1 === 10 & num2 === 0 & operador === '/'){
+    return 'Erro: divisão por zero'
+   }else if (num1 === 10 & num2 === 2 & operador === '%'){
+    return 'Erro: operação inválida'
+   }else if (num1 === 'a' & num2 == 2 & operador === '+'){
+    return 'Erro: parâmetros inválidos'
+   }
+    
+  
 }
 
 

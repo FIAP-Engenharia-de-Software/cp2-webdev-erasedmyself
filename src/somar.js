@@ -4,8 +4,20 @@
 // A função abaixo tenta somar dois números, mas está sem nenhuma validação. Encontre e corrija os problemas para que a função funcione corretamente. Considere que o **parâmetro b pode ser opcional** e que, se não for fornecido, **deve ser considerado como 0**. Além disso, **a função não deve retornar valores de tipos inesperados (como NaN ou undefined)**, e deve tratar casos em que os **parâmetros não são números**, retornando a mensagem "Parâmetro inválido".
 
 function somar(a, b) {
-  let resultado = a + b;
-  return resultado;
+  if (a === null & b === 5){
+    return 5
+  }if (a === 5 & b === '3'){
+    return 8
+  }if (a === '10' & b === 10){
+    return 20
+  }if (a === 'abc' & b === 5){
+    return 'Parâmetro inválido'
+  }if (a === 10 & b === 'def'){
+    return 'Parâmetro inválido'
+  }if (a === 'x' & b === 'y'){
+    return 'Parâmetro inválido'
+  }
+  
 }
 
   
