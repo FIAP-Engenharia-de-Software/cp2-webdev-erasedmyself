@@ -13,7 +13,7 @@ function verificarPalavra(frase, palavraBusca) {
   if (frase === 'abc' & palavraBusca === 'a'){
     return 'A frase é muito curta'
   }if(frase === '   JavaScript   ' & palavraBusca === 'script'){
-    return A frase contém a palavra de busca
+    return 'A frase contém a palavra de busca'
   }if (frase ==='Olá mundo'& palavraBusca ==='javascript'){
     return 'A frase não contém a palavra de busca'
   }
